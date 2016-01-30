@@ -12,4 +12,4 @@ export_node_env
 cd $build_dir
 
 head "Building webpack bundle"
-$(npm bin)/webpack --profile --display-modules
+$(npm bin)/webpack -p
